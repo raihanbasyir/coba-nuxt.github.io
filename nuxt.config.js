@@ -1,3 +1,10 @@
+export default {
+  target: 'static',
+  router: {
+    base: '/coba-nuxt.github.io/'
+  }
+}
+
 module.exports = {
   /*
   ** Headers of the page
