@@ -1,3 +1,10 @@
+export default {
+  target: 'static',
+  router: {
+    base: '/coba-nuxt.github.io/'
+  }
+}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -20,7 +27,7 @@ module.exports = {
   /*
   ** Build configuration
   */
- router : {base: '/coba-nuxt/' },
+ router : {base: '/coba-nuxt.github.io/' },
   build: {
     /*
     ** Run ESLint on save
